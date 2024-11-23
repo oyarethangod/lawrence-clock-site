@@ -1,0 +1,45 @@
+.tag{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+}
+.p1{
+
+ 
+    margin-left: -15px;
+    margin-top: 54px;
+    
+}
+.p1 img{
+    width: 300px;
+    height: 100%;
+    z-index: 0;
+}
+.p2{
+    font-family: monospace;
+    font-size: 1.3em;
+    letter-spacing: 6px;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    z-index: 1001;
+    
+}
+.p2::after{
+    content: '>>Lawrence>>';
+    position: absolute;
+    width: 70%;
+    height: 130%;
+    border-radius: 40%;
+    background-color: transparent;
+    box-shadow: inset -6px -6px 14px black, inset 6px 6px 10px yellow;
+    box-shadow: inset -6px -6px 14px black, inset 6px 6px 10px yellow;
+
+}
+
+.spacer{
+    padding-right: 10px;
+}
